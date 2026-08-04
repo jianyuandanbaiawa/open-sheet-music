@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-08-04T00:00:00Z",
+  "total_charts": 2,
+  "charts": [
+    {
+      "id": "sample02",
+      "title": "Pulse",
+      "artist": "Jade Kim",
+      "chart_author": "社区谱师",
+      "difficulty": 7,
+      "bpm": 130,
+      "download_date": "2026-08-03T12:00:00Z",
+      "source": {
+        "platform": "bilibili",
+        "url": "https://www.bilibili.com/",
+        "uploader": "示例UP主"
+      },
+      "tags": ["进阶"],
+      "has_music": true,
+      "has_preview": true,
+      "file_path": "charts/sample_adofai_pulse/chart.adofai",
+      "file_size": 1280
+    },
+    {
+      "id": "sample01",
+      "title": "A Dance of Fire and Ice",
+      "artist": "Hafiz Azman",
+      "chart_author": "ADOFAI Official",
+      "difficulty": 5,
+      "bpm": 120,
+      "download_date": "2026-08-04T00:00:00Z",
+      "source": {
+        "platform": "official",
+        "url": "https://store.steampowered.com/app/1387200/",
+        "uploader": "Steam Workshop"
+      },
+      "tags": ["官方", "入门"],
+      "has_music": true,
+      "has_preview": false,
+      "file_path": "charts/sample_adofai_official/chart.adofai",
+      "file_size": 512
+    }
+  ]
+}

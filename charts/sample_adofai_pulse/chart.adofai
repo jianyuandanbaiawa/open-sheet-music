@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "version": 1,
+    "artist": "Jade Kim",
+    "song": "Pulse",
+    "author": "社区谱师",
+    "difficulty": 7,
+    "bpm": 130,
+    "volume": 100
+  },
+  "actions": [
+    {
+      "floor": 1,
+      "eventType": "SetSpeed",
+      "speedType": "Bpm",
+      "beatsPerMinute": 130
+    }
+  ],
+  "pathData": "R200R200L200L200R200R200L200L200",
+  "angleData": [],
+  "decorations": []
+}

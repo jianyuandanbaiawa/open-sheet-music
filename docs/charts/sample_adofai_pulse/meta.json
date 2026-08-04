@@ -1,0 +1,18 @@
+{
+  "id": "sample02",
+  "title": "Pulse",
+  "artist": "Jade Kim",
+  "chart_author": "社区谱师",
+  "difficulty": 7,
+  "bpm": 130,
+  "version": 1,
+  "source": {
+    "platform": "bilibili",
+    "url": "https://www.bilibili.com/",
+    "uploader": "示例UP主"
+  },
+  "download_date": "2026-08-03T12:00:00Z",
+  "tags": ["进阶"],
+  "music_file": null,
+  "preview_file": null
+}

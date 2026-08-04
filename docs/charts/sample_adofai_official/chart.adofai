@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "version": 1,
+    "artist": "Hafiz Azman",
+    "song": "A Dance of Fire and Ice",
+    "author": "ADOFAI Official",
+    "difficulty": 5,
+    "bpm": 120,
+    "volume": 100
+  },
+  "actions": [
+    {
+      "floor": 1,
+      "eventType": "SetSpeed",
+      "speedType": "Bpm",
+      "beatsPerMinute": 120
+    }
+  ],
+  "pathData": "R300R300R300R300L300L300L300L300",
+  "angleData": [],
+  "decorations": []
+}
