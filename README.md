@@ -18,26 +18,30 @@
 
 ```
 open-sheet-music/
-├── charts/                  # 谱子存储
-│   ├── index.json           # 全量谱子索引（自动生成）
-│   └── <曲目ID>/            # 每个谱子唯一标识
-│       ├── chart.adofai     # 核心谱面文件
-│       ├── music.mp3        # 音乐文件
-│       ├── preview.jpg      # 预览图
-│       └── meta.json        # 元数据
-├── scripts/                 # 爬虫与工具
-│   ├── base_crawler.py      # 爬虫基类
-│   ├── bilibili_crawler.py  # B站爬虫
-│   ├── douyin_crawler.py    # 抖音爬虫
-│   ├── downloader.py        # 下载器
-│   ├── parser.py            # 谱子解析器
-│   └── indexer.py           # 索引生成器
-├── docs/                    # GitHub Pages
-│   ├── index.html           # 首页
-│   ├── css/style.css        # 样式
-│   └── js/app.js            # 交互
-└── .github/workflows/       # CI/CD
-    └── crawler.yml          # 定时爬取工作流
+├── index.html                # GitHub Pages 首页
+├── css/style.css             # Pages 样式
+├── js/app.js                 # Pages 交互
+├── 404.html                  # 404 页面
+├── charts/                   # 谱子存储 (同时作为 Pages 数据源)
+│   ├── index.json            # 全量谱子索引（自动生成）
+│   └── <曲目ID>/             # 每个谱子唯一标识
+│       ├── chart.adofai      # 核心谱面文件
+│       ├── music.mp3         # 音乐文件 (不入库)
+│       ├── preview.jpg       # 预览图 (不入库)
+│       └── meta.json         # 元数据
+├── scripts/                  # 爬虫与工具
+│   ├── base_crawler.py       # 爬虫基类
+│   ├── bilibili_crawler.py   # B站爬虫
+│   ├── douyin_crawler.py     # 抖音爬虫
+│   ├── kuaishou_crawler.py  # 快手爬虫
+│   ├── forum_crawler.py      # 通用论坛爬虫
+│   ├── downloader.py         # 下载器
+│   ├── parser.py             # 谱子解析器
+│   ├── indexer.py            # 索引生成器
+│   └── main.py               # 主协调器
+└── .github/workflows/        # CI/CD
+    ├── crawler.yml           # 定时爬取工作流
+    └── pages.yml             # Pages 部署工作流
 ```
 
 ## 🚀 快速开始
